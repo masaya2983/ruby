@@ -6,9 +6,14 @@ end
 
 class Bus < Car
   def run(distance)
-    super
-    puts "30人を乗せて、走っています。"  end
+    puts "バスで#{distance}キロ走ります。"
+  end
 end
 
 bus = Bus.new
 bus.run(5)
+ super
+    puts "30人を乗せて、走っています。"
+
+car = Car.new
+car.run(5)
